@@ -60,7 +60,7 @@ html {
 
 .card-contents {
     padding: 40px;
-    margin: 150px auto 0 auto;
+    margin: 100px auto 30px auto;
     max-width: 900px;
     background-color: #fff;
 }
@@ -89,19 +89,39 @@ html {
 
 .btnList {
     position: relative;
-	right: 0;
+	right: 13px;
 	bottom: 0;
 }
 /*ここまでランダムボタン*/
 
 
 /*ここからジャンルBOX*/
+.container2 {
+    width: 920px;
+    margin: 40px auto 400px auto;
+}
+
 .child {
     width: 200px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 87px;
     margin-bottom: 20px;
     float: left;
     font-size: 12px;
 }
 /*ここまでジャンルBOX*/
+
+
+/*ここからヘッダー*/
+.copyright {
+  color: #777;
+  text-align: center;
+  margin: 80px auto 40px auto;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+/*ここまでヘッダー*/
